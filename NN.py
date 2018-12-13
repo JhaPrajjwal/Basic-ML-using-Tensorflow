@@ -3,15 +3,6 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2' # To ignore AVX2 FMA extensions
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-'''
-input->weight->hiddenlayer1->activation fn->weight->hiddenlayer2->activation fn->weights->output
-
-Above process is called feed forward
-
-Then cost function is caluclated and optimized by backpropagation.
-
-feedforward + backpropagation = epoch (1 cycle)
-'''
 
 # Manipulation of dataset
 mnist = tf.keras.datasets.mnist
