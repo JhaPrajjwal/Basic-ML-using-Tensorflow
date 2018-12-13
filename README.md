@@ -9,3 +9,5 @@ This repository will we updated with basic ML problems which I am doing as a par
 2) Linear-Regression with Normal Eqn: Used Normal Equation instead of Gradient Descent and acheived a better result.
    
 3) K-Mean Clustering Algo - I have uploaded 2 screenshots for K=7 and K=3. Works quite accurately.
+
+4) Digit recognition using MNIST Dataset - Used a neural network with 2 hidden layers and achieved 96% accuracy.
